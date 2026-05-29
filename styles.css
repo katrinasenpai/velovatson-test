@@ -531,16 +531,96 @@ h1 {
 }
 
 @media (orientation: portrait) and (min-width: 700px) {
+  .screen-home,
+  .screen-question,
+  .screen-result {
+    padding-left: 72px;
+    padding-right: 72px;
+  }
+
+  .screen-result.is-active {
+    justify-content: flex-start;
+  }
+
+  .screen-question {
+    padding-top: 28px;
+  }
+
   h1 {
-    font-size: 76px;
+    font-size: 82px;
   }
 
   .subtitle {
-    font-size: 34px;
+    font-size: 38px;
+  }
+
+  .eyebrow,
+  .question-count,
+  .score-hint,
+  .panel-label,
+  .result-kicker {
+    font-size: 28px;
   }
 
   .primary-button {
-    font-size: 44px;
+    min-height: 120px;
+    font-size: 50px;
+  }
+
+  .hero-copy {
+    margin-top: 8vh;
+    padding: 34px 38px;
+  }
+
+  .question-panel {
+    padding: 28px 32px;
+  }
+
+  .question-panel h2 {
+    font-size: 36px;
+  }
+
+  .answers {
+    margin-top: 30px;
+    gap: 16px;
+  }
+
+  .answer-button {
+    min-height: 124px;
+    padding: 18px;
+  }
+
+  .answer-letter {
+    flex-basis: 82px;
+    font-size: 52px;
+  }
+
+  .answer-text {
+    font-size: 28px;
+  }
+
+  .result-header h2 {
+    font-size: 66px;
+  }
+
+  .score-badge span {
+    font-size: 76px;
+  }
+
+  .scale-values {
+    font-size: 32px;
+  }
+
+  .result-description,
+  .quest-summary {
+    padding: 24px 30px;
+    font-size: 28px;
+  }
+
+  .home-button {
+    min-height: 104px;
+    margin-top: 22px;
+    font-size: 46px;
   }
 }
 
