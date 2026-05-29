@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Свет vs Тьма: тест ВелоВатсон</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main class="app-shell" aria-live="polite">
+      <section class="screen screen-home is-active" id="homeScreen">
+        <div class="brand-line">
+          <span>Дело из архива</span>
+          <span>ВелоВатсон</span>
+        </div>
+
+        <div class="hero-copy">
+          <p class="eyebrow">Станция «Ржевская»</p>
+          <h1>Свет vs Тьма: как далеко ты зайдёшь ради справедливости?</h1>
+          <p class="subtitle">7 дилемм, которые покажут, кто в тебе сильнее: миротворец или мститель.</p>
+        </div>
+
+        <div class="case-strip" aria-hidden="true">
+          <span>Сергей Разумовский</span>
+          <span>Чумной Доктор</span>
+          <span>Мориарти</span>
+        </div>
+
+        <button class="primary-button start-button" id="startButton" type="button">
+          Начать тест
+        </button>
+      </section>
+
+      <section class="screen screen-question" id="questionScreen">
+        <div class="topbar">
+          <p class="question-count" id="questionCount">Вопрос 1 из 7</p>
+          <p class="score-hint">Свет / Тьма</p>
+        </div>
+
+        <div class="progress-wrap" aria-hidden="true">
+          <div class="progress-bar" id="progressBar"></div>
+        </div>
+
+        <article class="question-panel">
+          <p class="panel-label">Дилемма</p>
+          <h2 id="questionText"></h2>
+        </article>
+
+        <div class="answers" id="answers"></div>
+      </section>
+
+      <section class="screen screen-result" id="resultScreen">
+        <div class="result-kicker">Твой результат</div>
+
+        <div class="result-header">
+          <h2 id="resultTitle"></h2>
+          <div class="score-badge">
+            <span id="scoreValue"></span>
+            <small>из 14</small>
+          </div>
+        </div>
+
+        <div class="duality-scale" aria-label="Шкала Света и Тьмы">
+          <div class="scale-track">
+            <div class="scale-light" id="scaleLight"></div>
+            <div class="scale-dark" id="scaleDark"></div>
+          </div>
+          <div class="scale-values">
+            <span id="lightValue"></span>
+            <span id="darkValue"></span>
+          </div>
+        </div>
+
+        <p class="result-description" id="resultDescription"></p>
+        <p class="quest-summary" id="questSummary"></p>
+
+        <button class="primary-button home-button" id="homeButton" type="button">
+          На главную
+        </button>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

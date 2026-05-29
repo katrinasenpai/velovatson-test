@@ -1,0 +1,14 @@
+VELOVATSON TEST
+
+For the most compatible flash-drive launch, copy the folder "velovatson-test" to the root of the USB drive.
+
+Open this file first on the flipchart:
+
+START.htm
+
+If it is not visible, try:
+
+index.htm
+index.html
+
+If the flipchart file manager hides HTML files, open the Browser app on the flipchart and use its "Open file" option.
