@@ -169,6 +169,20 @@ button {
   text-transform: uppercase;
 }
 
+.home-title {
+  width: fit-content;
+  margin: 0 0 18px;
+  padding: 12px 18px;
+  border: 5px solid var(--ink);
+  background: linear-gradient(135deg, var(--red), var(--orange));
+  color: var(--text);
+  font-size: 68px;
+  font-size: clamp(42px, 6.5vw, 78px);
+  line-height: 0.95;
+  text-transform: uppercase;
+  box-shadow: 8px 8px 0 var(--ink);
+}
+
 h1,
 h2,
 p {
@@ -185,10 +199,23 @@ h1 {
   text-wrap: balance;
 }
 
+.home-question {
+  max-width: 860px;
+  margin-bottom: 18px;
+  padding: 18px 22px;
+  border: 5px solid var(--ink);
+  background: rgba(7, 9, 14, 0.82);
+  box-shadow: 8px 8px 0 var(--ink);
+}
+
 .subtitle {
   max-width: 780px;
   margin-bottom: 0;
-  color: var(--text);
+  padding: 18px 20px;
+  border: 5px solid var(--ink);
+  background: rgba(247, 243, 236, 0.94);
+  box-shadow: 8px 8px 0 var(--ink);
+  color: #111;
   font-family: "Segoe UI", Arial, sans-serif;
   font-size: 32px;
   font-size: clamp(22px, 3.2vw, 36px);
@@ -612,11 +639,19 @@ h1 {
   }
 
   h1 {
-    font-size: 82px;
+    font-size: 48px;
+  }
+
+  .home-title {
+    font-size: 88px;
+  }
+
+  .home-question {
+    font-size: 50px;
   }
 
   .subtitle {
-    font-size: 38px;
+    font-size: 32px;
   }
 
   .eyebrow,
@@ -679,15 +714,15 @@ h1 {
   .duality-scale,
   .result-description,
   .quest-summary {
-    margin-top: 24px;
+    margin-top: 18px;
   }
 
   .duality-scale {
-    padding: 28px 30px;
+    padding: 24px 28px;
   }
 
   .scale-track {
-    height: 70px;
+    height: 62px;
   }
 
   .scale-light::after,
@@ -705,12 +740,12 @@ h1 {
   .result-description,
   .quest-summary {
     padding: 24px 30px;
-    font-size: 28px;
+    font-size: 27px;
   }
 
   .home-button {
-    min-height: 104px;
-    margin-top: 22px;
+    min-height: 96px;
+    margin-top: 18px;
     font-size: 46px;
   }
 }
@@ -748,7 +783,7 @@ h1 {
   }
 
   .hero-copy {
-    margin-top: 16vh;
+    margin-top: 9vh;
     padding: 20px 18px;
   }
 
@@ -758,14 +793,29 @@ h1 {
   }
 
   h1 {
-    margin-bottom: 14px;
-    font-size: 38px;
+    margin-bottom: 12px;
+    font-size: 28px;
     line-height: 1.02;
   }
 
+  .home-title {
+    margin-bottom: 12px;
+    padding: 10px 12px;
+    font-size: 36px;
+    box-shadow: 5px 5px 0 var(--ink);
+  }
+
+  .home-question {
+    margin-bottom: 12px;
+    padding: 14px 14px;
+    box-shadow: 5px 5px 0 var(--ink);
+  }
+
   .subtitle {
-    font-size: 21px;
+    padding: 12px 14px;
+    font-size: 18px;
     line-height: 1.2;
+    box-shadow: 5px 5px 0 var(--ink);
   }
 
   .start-button {
