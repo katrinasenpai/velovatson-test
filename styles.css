@@ -857,7 +857,15 @@ h1 {
 
 @media (orientation: portrait) and (min-width: 700px) and (min-height: 1500px) {
   .hero-copy {
-    margin-top: 18vh;
+    margin-top: 34vh;
+  }
+
+  .screen-home {
+    padding-bottom: 52px;
+  }
+
+  .start-button {
+    margin-top: 28px;
   }
 }
 
